@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>index.html</title>
+    <style>
+        body {
+            background-color: orange;
+            color: black;
+            background-image: url('images/abc.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .center {
+            text-align: center;
+            color: blue;
+        }
+        .blinking-image img {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <script>
+        function viewResult() {
+            var classSelected = document.getElementById("class").value;
+            var termSelected = document.getElementById("term").value;
+            var rollNumber = document.getElementById("roll").value;
+            
+            // Constructing the image URL dynamically
+            var imageUrl = "images/";
+            
+            if (classSelected === "Nursery" && rollNumber === "1" && termSelected === "1st term") {
+                imageUrl += "nursery/1.png"; // Display "nursery/1.png" for Nursery, roll number 1, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "2" && termSelected === "1st term") {
+                imageUrl += "nursery/2.png"; // Display "nursery/2.png" for Class Nursery, roll number 2, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "3" && termSelected === "1st term") {
+                imageUrl += "nursery/3.png"; // Display "nursery/3.png" for Class Nursery, roll number 3, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "4" && termSelected === "1st term") {
+                imageUrl += "nursery/4.png"; // Display "nursery/4.png" for Class Nursery, roll number 4, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "5" && termSelected === "1st term") {
+                imageUrl += "nursery/5.png"; // Display "nursery/5.png" for Class Nursery, roll number 5, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "6" && termSelected === "1st term") {
+                imageUrl += "nursery/6.png"; // Display "nursery/6.png" for Class Nursery, roll number 6, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "7" && termSelected === "1st term") {
+                imageUrl += "nursery/7.png"; // Display "nursery/7.png" for Class Nursery, roll number 7, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "8" && termSelected === "1st term") {
+                imageUrl += "nursery/8.png"; // Display "nursery/8.png" for Class Nursery, roll number 8, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "9" && termSelected === "1st term") {
+                imageUrl += "nursery/9.png"; // Display "nursery/9.png" for Class Nursery, roll number 9, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "10" && termSelected === "1st term") {
+                imageUrl += "nursery/10.png"; // Display "nursery/10.png" for Class Nursery, roll number 10, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "11" && termSelected === "1st term") {
+                imageUrl += "nursery/11.png"; // Display "nursery/11.png" for Class Nursery, roll number 11, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "12" && termSelected === "1st term") {
+                imageUrl += "nursery/12.png"; // Display "nursery/12.png" for Class Nursery, roll number 12, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "13" && termSelected === "1st term") {
+                imageUrl += "nursery/13.png"; // Display "nursery/13.png" for Class Nursery, roll number 13, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "14" && termSelected === "1st term") {
+                imageUrl += "nursery/14.png"; // Display "nursery/14.png" for Class Nursery, roll number 14, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "15" && termSelected === "1st term") {
+                imageUrl += "nursery/15.png"; // Display "nursery/15.png" for Class Nursery, roll number 15, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "16" && termSelected === "1st term") {
+                imageUrl += "nursery/16.png"; // Display "nursery/16.png" for Class Nursery, roll number 16, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "17" && termSelected === "1st term") {
+                imageUrl += "nursery/17.png"; // Display "nursery/17.png" for Class Nursery, roll number 17, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "18" && termSelected === "1st term") {
+                imageUrl += "nursery/18.png"; // Display "nursery/18.png" for Class Nursery, roll number 18, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "19" && termSelected === "1st term") {
+                imageUrl += "nursery/19.png"; // Display "nursery/19.png" for Class Nursery, roll number 19, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "20" && termSelected === "1st term") {
+                imageUrl += "nursery/20.png"; // Display "nursery/20.png" for Class Nursery, roll number 20, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "21" && termSelected === "1st term") {
+                imageUrl += "nursery/21.png"; // Display "nursery/21.png" for Class Nursery, roll number 21, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "22" && termSelected === "1st term") {
+                imageUrl += "nursery/22.png"; // Display "nursery/22.png" for Class Nursery, roll number 22, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "23" && termSelected === "1st term") {
+                imageUrl += "nursery/23.png"; // Display "nursery/23.png" for Class Nursery, roll number 23, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "24" && termSelected === "1st term") {
+                imageUrl += "nursery/24.png"; // Display "nursery/24.png" for Class Nursery, roll number 24, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "25" && termSelected === "1st term") {
+                imageUrl += "nursery/25.png"; // Display "nursery/25.png" for Class Nursery, roll number 25, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "26" && termSelected === "1st term") {
+                imageUrl += "nursery/26.png"; // Display "nursery/26.png" for Class Nursery, roll number 26, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "27" && termSelected === "1st term") {
+                imageUrl += "nursery/27.png"; // Display "nursery/27.png" for Class Nursery, roll number 27, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "28" && termSelected === "1st term") {
+                imageUrl += "nursery/28.png"; // Display "nursery/28.png" for Class Nursery, roll number 28, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "29" && termSelected === "1st term") {
+                imageUrl += "nursery/29.png"; // Display "nursery/29.png" for Class Nursery, roll number 29, and 1st term
+            } else if (classSelected === "Nursery" && rollNumber === "30" && termSelected === "1st term") {
+                imageUrl += "nursery/30.png"; // Display "nursery/30.png" for Class Nursery, roll number 30, and 1st term
+            } else if (classSelected === "Class 4" && rollNumber === "1") {
+                imageUrl += "b.png"; // Display "b.png" for Class 4 and roll number 1
+            } else {
+                imageUrl += "default.png"; // Provide a default image if the criteria don't match
+            }
+            
+            var newTab = window.open(imageUrl, '_blank');
+            newTab.focus();
+        }
+    </script>
+</head>
+<body>
+<div class="center">
+    <b><h1><u>"UNIQUE PUBLIC HIGH SCHOOL & ACADEMY"</u></h1></b>
+    <hr>
+    <h3><u><i><b>"Affiliated with Bise Lahore"</b></i></u></h3>
+</div>
+<marquee>
+    <h2>ADMISSIONS OPEN=======ADMISSIONS OPEN=======ADMISSIONS OPEN=======ADMISSIONS OPEN</h2>
+</marquee>
+<fieldset>
+    <b><u>MESSAGE FROM THE PRINCIPAL:</u></b><br>
+    <a href="images/123.png">
+        <img src="images/123.png" alt="Principal's Message">
+    </a>
+    <pre><b>Dear Esteemed Students, Parents, and Teachers,</b></pre>
+    <pre><b>I am highly delighted to extend my heartfelt welcome to you all. 
+        At the UPHS Lahore, we are committed to ensuring the highest standards in education. 
+        Our unwavering dedication to the seamless conduct of Elementary and Secondary School Examinations
+        guarantees not only timely but also transparent results. Understanding the importance of swift academic services,
+        we have implemented a rapid student support system. Furthermore, our state-of-the-art automated online fast-tracking system is 
+        designed to enhance efficiency, ensuring a smooth academic journey for every student. Together, let us forge a path of excellence 
+        in education. Transparent evaluation is our priority.</b></pre>
+    <pre><br>Warm regards,<br>MUHAMMAD MUZAMMIL:<br>Principal</pre>
+</fieldset>
+<hr>
+<div class="center">
+    <h3><u><i><b>"Serving since 1993"</b></i></u></h3>
+</div>
+<hr>
+<fieldset>
+    <u><b><h1>Under:</h1></b></u>
+    <ul>
+        <li>Under high qualified staff</li>
+        <li>24 hours monitoring through camera</li>
+        <li>Ups & solar facility also available</li>
+        <li>Games and other activities</li>
+        <li>Monthly tests & parents teachers meetings</li>
+    </ul>
+</fieldset>
+<hr>
+<fieldset>
+    <pre><u><b><h1>Now active systems:</h1></b></u></pre>
+    <div class="center blinking-image">
+        <a href="forms/Admission form for school.png">
+            <img src="images/1st.png" alt="Active System A">
+        </a>
+    </div>
+    <div class="center blinking-image">
+        <a href="forms/156.png">
+            <img src="images/2nd.png" alt="Active System B">
+        </a>
+    </div>
+</fieldset>
+<fieldset>
+    <div class="center">
+        <h2>Check Online Result(SCHOOL)</h2>
+        <form>
+            <label for="class">Select Class:</label>
+            <select name="class" id="class">
+                <option value="Nursery">Nursery</option>
+                <option value="Prep 1">Prep 1</option>
+                <option value="Prep 2">Prep 2</option>
+                <option value="Class 1">Class 1</option>
+                <option value="Class 2">Class 2</option>
+                <option value="Class 3">Class 3</option>
+                <option value="Class 4">Class 4</option>
+                <option value="Class 5">Class 5(boys)</option>
+                <option value="Class 5">Class 5(girls)</option>
+                <option value="Class 6">Class 6(boys)</option>
+                <option value="Class 6">Class 6(girls)</option>
+                <option value="Class 7">Class 7(boys)</option>
+                <option value="Class 7">Class 7(girls)</option>
+                <option value="Class 8">Class 8(boys)</option>
+                <option value="Class 8">Class 8(girls)</option>
+                <option value="Class 9">Class 9(boys)</option>
+                <option value="Class 9">Class 9(girls)</option>
+                <option value="Class 10">Class 10(boys)</option>
+                <option value="Class 10">Class 10(girls)</option>
+            </select><br><br>
+            <label for="term">Select Term:</label>
+            <select name="term" id="term">
+                <option value="1">1st Term</option>
+                <option value="2">2nd Term</option>
+                <option value="3">Annual</option>
+                <option value="4">1st phase</option>
+                <option value="5">2nd phase</option>
+                <option value="6">3rd phase</option>
+                <option value="7">4th phase</option>
+                <option value="8">5th phase</option>
+                <option value="9">6th phase</option>
+                <option value="10">7th phase</option>
+                <option value="11">8th phase</option>
+                <option value="12">9th phase</option>
+                <option value="13">10th phase</option>
+                <option value="14">11th phase</option>
+                <option value="15">12th phase</option>
+            </select><br><br>
+            <label for="roll">Enter Roll Number:</label>
+            <input type="text" id="roll" name="roll" pattern="[1-9][0-9]?|30"><br><br>
+            <input type="button" value="View Result" onclick="viewResult()">
+        </form>
+    </div>
+</fieldset>
+</body>
+</html>
